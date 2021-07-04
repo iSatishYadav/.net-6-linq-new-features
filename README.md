@@ -5,7 +5,7 @@
 ## New `LINQ` Features
 At the time of writing this post, 5 previews of `.NET 6` have been released and last couple of releases have been blessing for `LINQ`.
 
-Here are few top new `LINQ` methods:
+Here are few top new `LINQ` features:
 
 * New methods `MaxBy` and `MinBy`
 * New methods `Chunk`
