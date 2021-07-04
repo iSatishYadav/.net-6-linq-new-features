@@ -11,6 +11,9 @@ Here are few top new `LINQ` methods:
 * New methods `Chunk`
 * New methods `DistinctBy`, `UnionBy`, `IntersectBy`, and `ExceptBy`
 * `Index` and `Range` parameters
+* New method `TryGetNonEnumeratedCount`
+* Default parameters for `FirstOrDefault`, `LastOrDefault`, and `SingleOrDefault`
+* `Zip` supports 3 `IEnumerables`
 
 ## New methods `MaxBy` and `MinBy`
 Finding out maximum of a minimum has been easier than even with these new `MaxBy` or `MinBy` methods.
@@ -152,4 +155,7 @@ IEnumerable<(int Id, Person Person, int Age)> zipped = ids.Zip(allPeople, allAge
 `.NET 6` previews are bring awesome set of new feautures with every new release. Let me know in comments which all features you're excited for.
 
 ## Next Steps
-Download [`.NET 6`](https://dotnet.microsoft.com/download/dotnet/6.0) today and try out.
+* Download [`.NET 6`](https://dotnet.microsoft.com/download/dotnet/6.0) today and try out.
+* Source code is available at: [https://github.com/iSatishYadav/.net-6-linq-new-features](https://shawt.io/r/sYR)
+
+> Originally posted at: [https://blog.satishyadav.com/.net-6-linq-new-features](https://blog.satishyadav.com/.net-6-linq-new-features?utm_source=gh&utm_medium=rm)
