@@ -125,7 +125,7 @@ e.g.
 List<Person> anotherList = people.TryGetNonEnumeratedCount(out int count) ? new List<Person>(count): new List<Person>();
 anotherList.AddRange(people);
 ````
-In our case right now, we know that people is just an in-memory list, but what if it was from database of some `Stream`, then it would'v made sense to find out the count to optimize the instantiation of `anotherList` object by specifying `capacity` parameter.
+In our case right now, we know that people is just an in-memory list, but what if it was from database of some `Stream`, then it would've made sense to find out the count to optimize the instantiation of `anotherList` object by specifying `capacity` parameter.
 
 
 ## Default parameters for `FirstOrDefault`, `LastOrDefault`, and `SingleOrDefault`
@@ -152,7 +152,7 @@ IEnumerable<(int Id, Person Person, int Age)> zipped = ids.Zip(allPeople, allAge
 ````
 
 ## Conclusion
-`.NET 6` previews are bring awesome set of new feautures with every new release. Let me know in comments which all features you're excited for.
+`.NET 6` previews are bring awesome set of new features with every new release. Let me know in comments which all features you're excited for.
 
 ## Next Steps
 * Download [`.NET 6`](https://dotnet.microsoft.com/download/dotnet/6.0) today and try out.
