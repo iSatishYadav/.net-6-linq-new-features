@@ -1,6 +1,6 @@
 ## What is `.NET 6` and why should I care?
 
-`.NET 6` is the upcoming major overhaul for `.NET`. It unifies entire `.NET` experience. No more `.NET Core`, `.NET Full Framework`, `Xamarine`, `Mono`, etc. Just a single `.NET`.
+`.NET 6` is the upcoming major overhaul for `.NET`. It unifies entire `.NET` experience. No more `.NET Core`, `.NET Full Framework`, `Xamarin`, `Mono`, etc. Just a single `.NET`.
 
 ## New `LINQ` Features
 At the time of writing this post, 5 previews of `.NET 6` have been released and last couple of releases have been blessing for `LINQ`.
