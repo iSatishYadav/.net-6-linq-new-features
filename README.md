@@ -16,7 +16,7 @@ Here are few top new `LINQ` features:
 * `Zip` supports 3 `IEnumerables`
 
 ## New methods `MaxBy` and `MinBy`
-Finding out maximum of a minimum has been easier than even with these new `MaxBy` or `MinBy` methods.
+Finding out maximum or minimum has now been easier than even with these new `MaxBy` or `MinBy` methods.
 
 Suppose a `List` of `Person`s as:
 ````csharp
